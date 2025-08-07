@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+html {
+    margin: 0;
+}
+.navbar {
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    height: 40px;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.navbar li {
+    margin-right: 20px;
+}
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+     background-color: grey;
+     padding: 15px;
+}
+.background img {
+    height: 300px;
+    width: 100%;
+}
+.content h1 {
+    display: flex;
+    justify-content: center;
+}
